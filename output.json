@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Jesse Bjorkman",
+    "title": "Senator",
+    "party": "Republican",
+    "position": "District D",
+    "phone": "907-465-2828",
+    "email": "Sen.Jesse.Bjorkman@akleg.gov",
+    "url": "https://akleg.gov/senator_bjorkman.php"
+  },
+  {
+    "name": "Matt Claman",
+    "title": "Senator",
+    "party": "Democrat",
+    "position": "District H",
+    "phone": "907-465-4919",
+    "email": "Sen.Matt.Claman@akleg.gov",
+    "url": "https://akleg.gov/senator_claman.php"
+  },
+  {
+    "name": "Elvi Gray-Jackson",
+    "title": "Senator",
+    "party": "Democrat",
+    "position": "District I",
+    "phone": "907-465-4930",
+    "email": "Sen.Elvi.Gray-Jackson@akleg.gov",
+    "url": "https://akleg.gov/senator_gray-jackson.php"
+  },
+  {
+    "name": "James Kaufman",
+    "title": "Senator",
+    "party": "Republican",
+    "position": "District F",
+    "phone": "907-465-4945",
+    "email": "Sen.James.Kaufman@akleg.gov",
+    "url": "https://akleg.gov/senator_kaufman.php"
+  },
+  {
+    "name": "Bill Wielechowski",
+    "title": "Senator",
+    "party": "Democrat",
+    "position": "District J",
+    "phone": "907-465-2435",
+    "email": "Sen.Bill.Wielechowski@akleg.gov",
+    "url": "https://akleg.gov/senator_wielechowski.php"
+  }
+]
