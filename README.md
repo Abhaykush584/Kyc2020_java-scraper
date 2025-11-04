@@ -29,12 +29,13 @@ java-scraper
 └── README.md
 ```
 
-## Technologies Used
+## ⚙️Technologies Used
 
-- Java
-- Selenium or Playwright
-- Maven
-- Log4j2 for logging
+Technologies Used
+Java 22 (JDK 17+)
+Playwright for Java
+Jackson Databind (for JSON writing)
+Apache Maven (build tool)
 
 ## How to Run the Application
 
@@ -50,8 +51,36 @@ java-scraper
    mvn exec:java -Dexec.mainClass="com.example.App"
    ```
 
-## Notes
+## 🧩 Output Format (sample)
+[
+  {
+    "name": "Senator Lyman Hoffman",
+    "title": "Senator",
+    "party": "Democrat",
+    "position": "District S",
+    "phone": "(907) 465-4453",
+    "email": "Senator.Lyman.Hoffman@akleg.gov",
+    "url": "https://akleg.gov/senator/hoffman.php"
+  }
+]
+   
+## 📓 Notes
 
-- Ensure that you have the necessary WebDriver for Selenium or the required setup for Playwright.
-- The application will scrape data from the specified URL and generate a JSON file containing the extracted information.
-- The assignment was completed in a timely manner, adhering to the specified requirements.
+- The scraper uses Playwright for headless browsing and DOM parsing.
+- Timeout errors may occur if the website takes too long to load; handled with fallback retries.
+- All data is exported to a JSON file for easy integration and validation.
+
+## ⏱️ Time Taken
+
+- Task	Duration
+- Environment setup (Java, Maven, Playwright)	1 hour
+- Scraper development & testing	2 hours
+- Debugging and optimization	1 hour
+- Total Time Taken	~4.5 hours
+
+## 📬 Submitted By
+
+Name: Abhay Kush
+Assignment: KYC2020 Java Web Scraper
+Date: November 4th Nov 2025
+  
