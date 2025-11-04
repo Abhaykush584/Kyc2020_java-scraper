@@ -5,37 +5,32 @@ This project is a Java-based web scraper that utilizes Selenium or Playwright to
 ## Project Structure
 
 ```
-java-scraper
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── example
-│   │   │           ├── App.java
-│   │   │           ├── Scraper.java
-│   │   │           ├── model
-│   │   │           │   └── Person.java
-│   │   │           └── util
-│   │   │               └── JsonWriter.java
-│   │   └── resources
-│   │       └── log4j2.xml
-│   └── test
-│       └── java
-│           └── com
-│               └── example
-│                   └── ScraperTest.java
+java-scraper/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/example/
+│       │       ├── App.java
+│       │       ├── Scraper.java
+│       │       ├── model/Person.java
+│       │       └── util/JsonWriter.java
+│       └── resources/
+│           └── log4j2.xml
 ├── pom.xml
+├── output.json
 ├── .gitignore
 └── README.md
+
 ```
 
 ## ⚙️Technologies Used
-
+```
 Technologies Used
 Java 22 (JDK 17+)
 Playwright for Java
 Jackson Databind (for JSON writing)
 Apache Maven (build tool)
+```
 
 ## How to Run the Application
 
@@ -52,8 +47,9 @@ Apache Maven (build tool)
    ```
 
 ## 🧩 Output Format (sample)
+```
 [
-  {
+{
     "name": "Senator Lyman Hoffman",
     "title": "Senator",
     "party": "Democrat",
@@ -63,6 +59,7 @@ Apache Maven (build tool)
     "url": "https://akleg.gov/senator/hoffman.php"
   }
 ]
+```
    
 ## 📓 Notes
 
@@ -80,7 +77,7 @@ Apache Maven (build tool)
 
 ## 📬 Submitted By
 
-Name: Abhay Kush
-Assignment: KYC2020 Java Web Scraper
-Date: November 4th Nov 2025
+- Name: Abhay Kush
+- Assignment: KYC2020 Java Web Scraper
+- Date: November 4th Nov 2025
   
